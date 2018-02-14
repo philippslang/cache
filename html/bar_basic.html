@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.7.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.7.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="4ce2b3e7-08f0-41cf-aaa6-15f8084a1899"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"d14cdc07-3d91-4edc-989e-1143c0a32d7a":{"roots":{"references":[{"attributes":{"source":{"id":"1cb29075-a870-4e24-90f8-c7aff57b85b7","type":"ColumnDataSource"}},"id":"185abfcd-f460-4d10-912b-458661a1825d","type":"CDSView"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"db0f43bb-3f02-4709-8a42-aef9cf2f93a3","subtype":"Figure","type":"Plot"},"ticker":{"id":"5547fa63-4a14-4a60-9090-f742317c4d9d","type":"CategoricalTicker"}},"id":"3ba26a32-e586-4a41-8abb-06a64ee617e9","type":"Grid"},{"attributes":{"data_source":{"id":"1cb29075-a870-4e24-90f8-c7aff57b85b7","type":"ColumnDataSource"},"glyph":{"id":"90b1f9cb-ffb7-438e-8584-d4ffa7aa962d","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"9fb3b6ed-baa3-421b-a1f8-1bf66218dd6a","type":"VBar"},"selection_glyph":null,"view":{"id":"185abfcd-f460-4d10-912b-458661a1825d","type":"CDSView"}},"id":"a574a9a2-5375-4c1c-b23c-2b3fdc5590fa","type":"GlyphRenderer"},{"attributes":{},"id":"b65f66e8-0ec6-4036-8902-6d0df177cac8","type":"CategoricalScale"},{"attributes":{"formatter":{"id":"7bbd4535-40e6-45f3-bfbb-9ca757482fa7","type":"BasicTickFormatter"},"plot":{"id":"db0f43bb-3f02-4709-8a42-aef9cf2f93a3","subtype":"Figure","type":"Plot"},"ticker":{"id":"bed854ad-094e-4ee1-bb5e-45ac57bbe30c","type":"BasicTicker"}},"id":"8f3046fb-7b43-4ceb-9cb0-4117f442bb4c","type":"LinearAxis"},{"attributes":{"formatter":{"id":"2e7482e3-2420-4124-a8e1-6110cd25cdab","type":"CategoricalTickFormatter"},"plot":{"id":"db0f43bb-3f02-4709-8a42-aef9cf2f93a3","subtype":"Figure","type":"Plot"},"ticker":{"id":"5547fa63-4a14-4a60-9090-f742317c4d9d","type":"CategoricalTicker"}},"id":"3c8567aa-d529-48f5-896f-fc615d8831f8","type":"CategoricalAxis"},{"attributes":{"callback":null,"factors":["Apples","Pears","Nectarines","Plums","Grapes","Strawberries"]},"id":"d38454b1-9858-43b2-bad8-3134f192d5bc","type":"FactorRange"},{"attributes":{},"id":"5547fa63-4a14-4a60-9090-f742317c4d9d","type":"CategoricalTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"ce87a921-5338-4d0d-88c2-2b8175fbb7b3","type":"Toolbar"},{"attributes":{},"id":"bed854ad-094e-4ee1-bb5e-45ac57bbe30c","type":"BasicTicker"},{"attributes":{"dimension":1,"plot":{"id":"db0f43bb-3f02-4709-8a42-aef9cf2f93a3","subtype":"Figure","type":"Plot"},"ticker":{"id":"bed854ad-094e-4ee1-bb5e-45ac57bbe30c","type":"BasicTicker"}},"id":"e1b3bbae-7789-4226-b07d-f47127d079f0","type":"Grid"},{"attributes":{"callback":null,"start":0},"id":"85d8f72d-1116-4685-a3ff-705aa0493263","type":"DataRange1d"},{"attributes":{"plot":null,"text":"Fruit Counts"},"id":"8b503245-f645-49e8-b094-3b9b8fd96f01","type":"Title"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.9},"x":{"field":"x"}},"id":"90b1f9cb-ffb7-438e-8584-d4ffa7aa962d","type":"VBar"},{"attributes":{},"id":"7bbd4535-40e6-45f3-bfbb-9ca757482fa7","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"3c8567aa-d529-48f5-896f-fc615d8831f8","type":"CategoricalAxis"}],"left":[{"id":"8f3046fb-7b43-4ceb-9cb0-4117f442bb4c","type":"LinearAxis"}],"plot_height":350,"renderers":[{"id":"3c8567aa-d529-48f5-896f-fc615d8831f8","type":"CategoricalAxis"},{"id":"3ba26a32-e586-4a41-8abb-06a64ee617e9","type":"Grid"},{"id":"8f3046fb-7b43-4ceb-9cb0-4117f442bb4c","type":"LinearAxis"},{"id":"e1b3bbae-7789-4226-b07d-f47127d079f0","type":"Grid"},{"id":"a574a9a2-5375-4c1c-b23c-2b3fdc5590fa","type":"GlyphRenderer"}],"title":{"id":"8b503245-f645-49e8-b094-3b9b8fd96f01","type":"Title"},"toolbar":{"id":"ce87a921-5338-4d0d-88c2-2b8175fbb7b3","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"d38454b1-9858-43b2-bad8-3134f192d5bc","type":"FactorRange"},"x_scale":{"id":"b65f66e8-0ec6-4036-8902-6d0df177cac8","type":"CategoricalScale"},"y_range":{"id":"85d8f72d-1116-4685-a3ff-705aa0493263","type":"DataRange1d"},"y_scale":{"id":"e69cb184-8402-462a-8135-54277102e5e7","type":"LinearScale"}},"id":"db0f43bb-3f02-4709-8a42-aef9cf2f93a3","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"column_names":["x","top"],"data":{"top":[5,3,4,2,4,6],"x":["Apples","Pears","Nectarines","Plums","Grapes","Strawberries"]}},"id":"1cb29075-a870-4e24-90f8-c7aff57b85b7","type":"ColumnDataSource"},{"attributes":{},"id":"e69cb184-8402-462a-8135-54277102e5e7","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.9},"x":{"field":"x"}},"id":"9fb3b6ed-baa3-421b-a1f8-1bf66218dd6a","type":"VBar"},{"attributes":{},"id":"2e7482e3-2420-4124-a8e1-6110cd25cdab","type":"CategoricalTickFormatter"}],"root_ids":["db0f43bb-3f02-4709-8a42-aef9cf2f93a3"]},"title":"Bokeh Application","version":"0.12.7"}};
+              var render_items = [{"docid":"d14cdc07-3d91-4edc-989e-1143c0a32d7a","elementid":"4ce2b3e7-08f0-41cf-aaa6-15f8084a1899","modelid":"db0f43bb-3f02-4709-8a42-aef9cf2f93a3"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>
